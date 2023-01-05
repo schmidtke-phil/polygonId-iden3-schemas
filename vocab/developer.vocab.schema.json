@@ -1,0 +1,32 @@
+{
+    "$id": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/vocab/developer.vocab.schema.json",
+    "$schema": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/json-ld/developer.json-ld#Developer",
+    "title": "Vocabulary for Iden3 Credential specific type in a json Format",
+    "type": "Languages",
+    "properties": {   
+        "Typescript": {
+            "display": "Typescript",
+            "description": "Is a Typescript Developer",
+            "type": "number",
+            "format": "bool"
+        },
+        "GoLang": {
+            "display": "GoLang",
+            "description": "Is a GoLang Developer",
+            "type": "number",
+            "format": "bool"
+        },
+        "Java": {
+            "display": "Java",
+            "description": "Is a Java Developer",
+            "type": "number",
+            "format": "bool"
+        },
+        "Python": {
+            "display": "Python",
+            "description": "Is a Python Developer",
+            "type": "number",
+            "format": "bool"
+        }
+    }
+}

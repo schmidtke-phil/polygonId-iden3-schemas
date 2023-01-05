@@ -1,0 +1,35 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "Developer": {
+      "@id": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/json-ld/developer.json-ld#Developer",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "developer-vocab": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/vocab/developer.vocab.schema.json",
+        "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+        "Typescript": {
+          "@id": "typescript-vocab:Typescript",
+          "@type": "serialization:IndexDataSlotA"
+        },
+        "GoLang": {
+          "@id": "typescript-vocab:GoLang",
+          "@type": "serialization:IndexDataSlotB"
+        },
+        "Java": {
+          "@id": "typescript-vocab:Java",
+          "@type": "serialization:IndexDataSlotC"
+        },
+        "Python": {
+          "@id": "typescript-vocab:Python",
+          "@type": "serialization:IndexDataSlotD"
+        }
+      }
+    }
+  }]
+}
