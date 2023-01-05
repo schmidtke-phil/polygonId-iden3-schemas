@@ -1,0 +1,23 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "TypescriptDeveloper": {
+      "@id": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/json-ld/typescript.json-ld#TypescriptDeveloper",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "typescript-vocab": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/vocab/typescript.vocab.schema.json",
+        "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+        "Typescript": {
+          "@id": "typescript-vocab:Typescript",
+          "@type": "serialization:IndexDataSlotA"
+        }
+      }
+    }
+  }]
+}

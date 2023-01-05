@@ -1,0 +1,14 @@
+{
+    "$id": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/vocab/typescript.vocab.schema.json",
+    "$schema": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/json-ld/typescript.json-ld#TypescriptDeveloper",
+    "title": "Vocabulary for Iden3 Credential specific type in a json Format",
+    "type": "Languages",
+    "properties": {   
+        "Typescript": {
+            "display": "Typescript",
+            "description": "Is a Typescript Developer",
+            "type": "number",
+            "format": "bool"
+        }
+    }
+}
