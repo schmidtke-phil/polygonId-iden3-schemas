@@ -15,18 +15,6 @@
             "description": "Is a GoLang Developer",
             "type": "number",
             "format": "bool"
-        },
-        "Java": {
-            "display": "Java",
-            "description": "Is a Java Developer",
-            "type": "number",
-            "format": "bool"
-        },
-        "Python": {
-            "display": "Python",
-            "description": "Is a Python Developer",
-            "type": "number",
-            "format": "bool"
         }
     }
 }

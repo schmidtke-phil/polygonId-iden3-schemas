@@ -20,14 +20,6 @@
         "GoLang": {
           "@id": "typescript-vocab:GoLang",
           "@type": "serialization:IndexDataSlotB"
-        },
-        "Java": {
-          "@id": "typescript-vocab:Java",
-          "@type": "serialization:IndexDataSlotC"
-        },
-        "Python": {
-          "@id": "typescript-vocab:Python",
-          "@type": "serialization:IndexDataSlotD"
         }
       }
     }
