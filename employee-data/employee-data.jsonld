@@ -6,13 +6,13 @@
             "id": "@id",
             "type": "@type",
             "EmployeeData": {
-                "@id": "https://raw.githubusercontent.com/0xPolygonID/tutorial-examples/main/credential-schema/schemas-examples/employee-data/employee-data.jsonld#EmployeeData",
+                "@id": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee-data.jsonld#EmployeeData",
                 "@context": {
                     "@version": 1.1,
                     "@protected": true,
                     "id": "@id",
                     "type": "@type",
-                    "vocab": "https://github.com/0xPolygonID/tutorial-examples/blob/main/credential-schema/schemas-examples/employee-data/employee-data-vocab.md#",
+                    "vocab": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee-data-vocab.md#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "monthlySalary": {
                         "@id": "vocab:monthlySalary",
