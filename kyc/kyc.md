@@ -1,0 +1,3 @@
+# KYCAgeCredential
+
+Describes the KYCAgeCredential.
