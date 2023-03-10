@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee-data.jsonld",
-            "jsonSchema": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee-data.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee.json"
         }
     },
     "required": [
