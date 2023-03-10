@@ -1,25 +1,25 @@
 {
-    "@context": [
-        {
-            "@version": 1.1,
-            "@protected": true,
-            "id": "@id",
-            "type": "@type",
-            "EmployeeData": {
-                "@id": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee.jsonld#EmployeeData",
-                "@context": {
-                    "@version": 1.1,
-                    "@protected": true,
-                    "id": "@id",
-                    "type": "@type",
-                    "vocab": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee-vocab.md#",
-                    "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "monthlySalary": {
-                        "@id": "vocab:monthlySalary",
-                        "@type": "xsd:integer"
-                    }
-                }
-            }
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "EmployeeData": {
+        "@id": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee.json-ld#EmployeeData",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-data/employee-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "monthlySalary": {
+            "@id": "vocab:monthlySalary",
+            "@type": "xsd:integer"
+          }
         }
-    ]
+      }
+    }
+  ]
 }
