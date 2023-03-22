@@ -1,0 +1,37 @@
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "EmployeeData": {
+                "@id": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-test/employee-data.jsonld#EmployeeData",
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "vocab": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-test/employee-data-vocab.md#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "monthlySalary": {
+                        "@id": "vocab:monthlySalary",
+                        "@type": "xsd:integer"
+                    },
+                    "active": {
+                        "@id": "vocab:active",
+                        "@type": "xsd:integer"
+                    },
+                    "name": {
+                        "@id": "vocab:name",
+                        "@type": "xsd:integer"
+                    },
+                    "age": {
+                        "@id": "vocab:age",
+                        "@type": "xsd:integer"
+                    }
+                }
+            }
+        }
+    ]
+}
