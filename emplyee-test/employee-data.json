@@ -3,7 +3,7 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-test/employee-data.jsonld",
+            "jsonLdContext": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-test/employee-data.json-ld",
             "jsonSchema": "https://raw.githubusercontent.com/schmidtke-phil/polygonId-iden3-schemas/main/employee-test/employee-data.json"
         }
     },
